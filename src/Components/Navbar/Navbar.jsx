@@ -1,14 +1,17 @@
 import "./Navbar.css";
+
 function Navbar() {
   return (
-    <div className="nav">
-      <div className="nav-logo">German Precision</div>
-      <ul className="nav-menu">
-        <li>Home</li>
-        <li>Explore</li>
-        <li>About</li>
-        <li className="nav-contact">Contact</li>
-      </ul>
+    <div className="header">
+      <div className="nav">
+        <div className="nav-logo">German Precision</div>
+        <ul className="nav-menu">
+          <li>Explore</li>
+          <li>About</li>
+          <li>Contact</li>
+          <li className="nav-login">Login</li>
+        </ul>
+      </div>
     </div>
   );
 }
